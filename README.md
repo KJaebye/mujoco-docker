@@ -1,6 +1,8 @@
 # mujoco-docker
 Dockerfile for mujoco200 environment. Visualization via X server.
 
+![image](humanoid.png)
+
 This is a MuJoCo200 environment with mujoco-py==2.1. The simulator GUI can be visualised via X11 forwarding.
 
 # Usage
