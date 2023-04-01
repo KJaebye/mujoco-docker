@@ -6,9 +6,13 @@ Dockerfile for mujoco200 environment. Visualization via X server.
 This is a MuJoCo200 environment with mujoco-py==2.1. The simulator GUI can be visualised via X11 forwarding.
 
 # Usage
-## Build Docker Image
+## Build Docker Image / or Pull from DockerHub
 ```
 docker build -t "your image tag" .
+```
+or pull image from dockerhub
+```
+docker pull kjaebye/mujoco200:stable
 ```
 ## Run Containner
 ```
