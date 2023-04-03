@@ -83,4 +83,4 @@ ENV LD_LIBRARY_PATH "/root/.mujoco/mujoco200/bin:${LD_LIBRARY_PATH}"
 RUN echo 'export LD_LIBRARY_PATH=/root/.mujoco/mujoco200/bin:${LD_LIBRARY_PATH}' >> /etc/bash.bashrc
 
 # Finally, install mujoco_py.
-RUN pip install mujoco_py
+RUN pip install mujoco_py==2.0.2.8
