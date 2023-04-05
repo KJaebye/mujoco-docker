@@ -24,6 +24,10 @@ Restart the containner
 docker restart mujoco
 ```
 ssh to container
+> The host should have access to the container
+```
+xhost +
+```
 ```
 ssh root@0.0.0.0 -p 5022
 ```
